@@ -1,3 +1,5 @@
+package Medium;
+
 import java.util.*;
 import java.io.*;
 
