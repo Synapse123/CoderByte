@@ -1,11 +1,10 @@
 package Medium;
 
 import java.util.*;
-import java.io.*;
 
 class DistinctList {
 
-    int DistinctList(int[] arr) {
+    int DistinctList(int[] arr){
 
         int duplicates = 0;
 
