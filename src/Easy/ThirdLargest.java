@@ -1,9 +1,11 @@
+package Easy;
+
 import java.util.*;
 import java.io.*;
 
-class ThirdGreatest {
+class ThirdLargest {
 
-    String ThirdGreatest(String[] strArr) {
+    String ThirdLargest(String[] strArr) {
 
         Arrays.sort(strArr, new Comparator<String>() {
             public int compare(String o1, String o2) {
@@ -18,7 +20,7 @@ class ThirdGreatest {
     public static void main (String[] args) {
         // keep this function call here
         Scanner  s = new Scanner(System.in);
-        ThirdGreatest c = new ThirdGreatest();
+        ThirdLargest c = new ThirdLargest();
         ArrayList<String> strings = new ArrayList<String>();
         while(s.hasNext()){
             strings.add(s.next());
@@ -27,7 +29,7 @@ class ThirdGreatest {
         for(int i = 0; i < stringArr.length; i++){
             stringArr[i] = strings.get(i);
         }
-        System.out.print(c.ThirdGreatest(stringArr));
+        System.out.print(c.ThirdLargest(stringArr));
     }
 
 }

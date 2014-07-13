@@ -1,13 +1,12 @@
 package Easy;
 
 import java.util.*;
-import java.io.*;
 
-class CountingMinutesI {
+class CountingMinutes {
 
     private static final int DAY = 24*60;
 
-    String CountingMinutesI(String str) {
+    String CountingMinutes(String str) {
 
         String[] times = str.split("-");
         int[] sumMinutes = new int[2];
@@ -33,8 +32,8 @@ class CountingMinutesI {
     public static void main (String[] args) {
         // keep this function call here
         Scanner  s = new Scanner(System.in);
-        CountingMinutesI c = new CountingMinutesI();
-        System.out.print(c.CountingMinutesI(s.nextLine()));
+        CountingMinutes c = new CountingMinutes();
+        System.out.print(c.CountingMinutes(s.nextLine()));
     }
 
 }

@@ -1,11 +1,10 @@
 package Easy;
 
 import java.util.*;
-import java.io.*;
 
-class PowersofTwo {
+class PowersOfTwo {
 
-    String PowersofTwo(int num) {
+    String PowersOfTwo(int num) {
 
         if(num == 1){
             return "true";
@@ -27,8 +26,8 @@ class PowersofTwo {
     public static void main (String[] args) {
         // keep this function call here
         Scanner  s = new Scanner(System.in);
-        PowersofTwo c = new PowersofTwo();
-        System.out.print(c.PowersofTwo(Integer.parseInt(s.nextLine())));
+        PowersOfTwo c = new PowersOfTwo();
+        System.out.print(c.PowersOfTwo(Integer.parseInt(s.nextLine())));
     }
 
 }
